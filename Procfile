@@ -1,1 +1,1 @@
-worker: python cmbot.py
+web: python cmbot.py
