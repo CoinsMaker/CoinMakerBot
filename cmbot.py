@@ -24,7 +24,7 @@ def handle_text(message):
 
 @bot.message_handler(content_types=["text"])
 def handle_text(message):
-    bot.send_message(message.from_user.id, "Пришло простое сообщение" + message.from_user.id)
+    bot.send_message(message.from_user.id, "Пришло простое сообщение от " & message.from_user.id)
 
 @bot.message_handler(content_types=["document"])
 def handle_text(message):
